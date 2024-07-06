@@ -2,6 +2,16 @@
   "expo": {
     "name": "notes-app",
     "slug": "notes-app",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Exo-Regular.otf"]
+        }
+      ]
+    ],
+    "scheme": "notes-app"
   }
 }
